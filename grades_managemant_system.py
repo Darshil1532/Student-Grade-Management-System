@@ -1,7 +1,5 @@
 # Student Grade Management System
-# This program allows users to add, update, delete, and view student grades. It also provides options to visualize the data using different types of graphs.
-# The program continues to run until the user decides to exit.
-
+# By Darshil Jha
 def AddStudent():
     name = input("Enter the name of the student: ")
     marks = int(input("Enter the marks of the student: "))
@@ -81,4 +79,5 @@ for i in range(100):
         break
 
     else :
+
         print("Enter the correct value: ")
